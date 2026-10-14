@@ -39,7 +39,7 @@ export default function FeaturedIn() {
   return (
     <section
       aria-label="As Featured In"
-      className="relative w-full py-10 sm:py-14 bg-gradient-to-b from-[#f9ece2]/35 via-[#FAF8F5] to-[#FAF8F5] border-y border-neutral-200/60 overflow-hidden select-none"
+      className="relative w-full py-10 sm:py-14 bg-gradient-to-b from-[#f9ece2]/35 via-[#FAF8F5] to-[#FAF8F5] overflow-hidden select-none"
     >
       {/* ================= SMOOTH MARQUEE CONTAINER ================= */}
       <div className="group relative flex overflow-hidden w-full items-center">
