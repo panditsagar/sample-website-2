@@ -1,26 +1,35 @@
 @import "tailwindcss";
 
+@theme {
+  --font-sans: "Satoshi", "Switzer", system-ui, sans-serif;
+  --font-satoshi: "Satoshi", "Switzer", system-ui, sans-serif;
+  --font-switzer: "Switzer", "Satoshi", system-ui, sans-serif;
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --font-sans: "Satoshi", "Switzer", system-ui, sans-serif;
+  --font-satoshi: "Satoshi", "Switzer", system-ui, sans-serif;
+  --font-switzer: "Switzer", "Satoshi", system-ui, sans-serif;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
+html,
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-satoshi);
+  background-color: #FAF8F5;
+  color: #171717;
+  overflow-x: hidden;
+}
+
+::selection {
+  background-color: #f97316;
+  color: #ffffff;
+}
+
+.font-sans,
+.font-satoshi {
+  font-family: var(--font-satoshi);
+}
+
+.font-switzer {
+  font-family: var(--font-switzer);
 }
