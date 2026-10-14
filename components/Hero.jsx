@@ -72,16 +72,16 @@ export default function Hero() {
           initial={{ opacity: 0, x: -24 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
-          className="absolute left-8 xl:left-14 2xl:left-16 top-[46%] xl:top-[47%] z-20 max-w-[360px] xl:max-w-[420px]"
+          className="absolute left-8 xl:left-14 2xl:left-16 top-[46%] xl:top-[55%] z-20 max-w-[360px] xl:max-w-[420px]"
         >
           {/* Heading */}
-          <h1 className="font-satoshi text-3xl uppercase lg:text-[40px] xl:text-[46px] font-extrabold text-[#131D35] tracking-[-0.03em] leading-[1.08]">
+          <h1 className="font-satoshi text-3xl   lg:text-[40px]   font-extrabold text-[#4F4E4E] tracking-[0.02em] leading-[1.08]">
             9 Crores MSMEs <br />
             Build Something <br />
             Real Every Day
           </h1>
 
-          <p className="mt-3 text-base xl:text-2xl font-bold text-neutral-500 font-satoshi">
+          <p className="mt-3 text-base xl:text-xl font-bold text-neutral-500 font-satoshi">
             That Is the Only Story That Matters.
           </p>
         </motion.div>
