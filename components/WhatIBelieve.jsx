@@ -9,14 +9,14 @@ export default function WhatIBelieve() {
             <p className="font-switzer text-xs font-bold uppercase tracking-[0.18em] text-[#C06E42]">
               
             </p>
-            <h2 className="mt-4 font-satoshi text-3xl font-black leading-[1.12] tracking-normal text-[#131D35] sm:text-4xl lg:text-[44px]">
+            <h2 className="  font-satoshi text-3xl font-black leading-[1.12] tracking-normal text-[#131D35] sm:text-4xl lg:text-[44px]">
              What I Believe?
             </h2>
 
           
           </div>
 
-          <p className="max-w-[590px] pt-1 font-switzer text-sm leading-relaxed text-neutral-600 sm:text-base lg:ml-auto lg:pt-9">
+          <p className="max-w-[590px]  font-switzer text-sm leading-relaxed text-neutral-600 sm:text-lg lg:ml-auto ">
             I believe a founder does not need more noise. They need clear
             thinking, practical systems, and the courage to keep improving the
             business one decision at a time.
@@ -41,7 +41,7 @@ export default function WhatIBelieve() {
               aria-hidden="true"
             />
             <div className="absolute bottom-0 left-0 right-0 p-6 text-white sm:p-8 lg:p-9">
-              <h3 className="font-satoshi text-2xl font-black leading-tight">
+              <h3 className="font-satoshi text-3xl font-black leading-tight">
                 My Story
               </h3>
               <p className="mt-3 max-w-[620px] font-switzer text-sm leading-relaxed text-white/82 sm:text-base">
@@ -55,7 +55,7 @@ export default function WhatIBelieve() {
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-1">
             <article className="min-h-[220px] rounded-lg bg-[#F4DCCE] p-7 text-[#131D35] sm:p-8 lg:min-h-0 lg:p-10">
               <div className="flex h-full flex-col justify-end">
-                <p className="font-satoshi text-xl font-black">My Mission</p>
+                <p className="font-satoshi text-2xl font-black">My Mission</p>
                 <p className="mt-4 font-switzer text-sm leading-relaxed text-[#4F4E4E] sm:text-base">
                   To make business growth easier to understand, easier to act
                   on, and easier to repeat for MSME founders.
@@ -65,7 +65,7 @@ export default function WhatIBelieve() {
 
             <article className="min-h-[220px] rounded-lg bg-[#131D35] p-7 text-white shadow-[0_24px_60px_rgba(19,29,53,0.12)] sm:p-8 lg:min-h-0 lg:p-10">
               <div className="flex h-full flex-col justify-end">
-                <p className="font-satoshi text-xl font-black">My Vision</p>
+                <p className="font-satoshi text-2xl font-black">My Vision</p>
                 <p className="mt-4 font-switzer text-sm leading-relaxed text-white/74 sm:text-base">
                   To help build a generation of founder-led businesses that are
                   profitable, peaceful, and prepared for the future.

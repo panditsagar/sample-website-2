@@ -1,7 +1,7 @@
 const stats = [
   {
     value: "12L+",
-    label: "Business owners impacted",
+    label: "Business  impacted",
     description: "Founders reached through practical business education.",
     className: "bg-[#131D35] text-white",
     valueClassName: "text-[#F6A723]",
@@ -35,7 +35,7 @@ const stats = [
 
 export default function ResultsStats() {
   return (
-    <section className="w-full px-6 pb-16 sm:px-10 sm:pb-20 lg:px-14 lg:pb-28">
+    <section className="w-full px-6 pb-16 sm:px-10 sm:py-20 lg:px-14 lg:pb-28">
       <div className="mx-auto w-full max-w-[1240px]">
         <div className="flex flex-col gap-8 lg:flex-row lg:items-start lg:justify-between">
           <div>
@@ -51,7 +51,7 @@ export default function ResultsStats() {
           <div className="flex lg:pt-3">
             <a
               href="https://rajivtalreja.com/contact/"
-              className="inline-flex items-center justify-center rounded-full bg-[#131D35] px-6 py-3 font-switzer text-sm font-bold text-white shadow-[0_12px_26px_rgba(19,29,53,0.18)] transition-all duration-500 hover:bg-[#C06E42]"
+              className="inline-flex items-center justify-center rounded-full bg-[#131D35] px-10 py-3.5 font-switzer text-sm font-bold text-white shadow-[0_12px_26px_rgba(19,29,53,0.18)] transition-all duration-500 hover:bg-[#C06E42]"
             >
               Let&apos;s Connect
             </a>
@@ -67,10 +67,10 @@ export default function ResultsStats() {
               <p className={`font-satoshi text-[48px] font-black leading-none tracking-normal sm:text-[56px] lg:text-[58px] ${stat.valueClassName}`}>
                 {stat.value}
               </p>
-              <h3 className="mt-5 font-satoshi text-base font-black leading-snug">
+              <h3 className="mt-5 font-satoshi text-lg font-black leading-snug">
                 {stat.label}
               </h3>
-              <p className={`mt-2 max-w-[220px] font-switzer text-sm font-medium leading-relaxed ${stat.descriptionClassName}`}>
+              <p className={`mt-2 max-w-[220px] font-switzer text-md font-medium leading-relaxed ${stat.descriptionClassName}`}>
                 {stat.description}
               </p>
             </div>
