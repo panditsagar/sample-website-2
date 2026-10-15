@@ -67,7 +67,7 @@ export default function ResultsStats() {
               <p className={`font-satoshi text-[48px] font-black leading-none tracking-normal sm:text-[56px] lg:text-[58px] ${stat.valueClassName}`}>
                 {stat.value}
               </p>
-              <h3 className="mt-5 font-satoshi text-lg font-black leading-snug">
+              <h3 className="mt-25 font-satoshi text-lg font-black leading-snug">
                 {stat.label}
               </h3>
               <p className={`mt-2 max-w-[220px] font-switzer text-md font-medium leading-relaxed ${stat.descriptionClassName}`}>
